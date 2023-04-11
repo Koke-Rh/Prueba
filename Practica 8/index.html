@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 8</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            width: 25%;
+            background-color: #f1f1f1;
+            position: fixed;
+            height: 100%;
+            overflow: auto;
+        }
+        li a {
+            display: block;
+            color: #7a979a;
+            padding: 8px 16px;
+        }
+        li a.active {
+            background-color: rgb(0, 217, 255);
+            color: white;
+        }
+        li a:hover:not(.active) {
+            background-color: #555;
+            color: white;
+        }
+        #home{
+            margin-left: 25%;
+            height: 1000px;
+            background-color: aquamarine;
+            padding: 25px;
+            
+            
+            background: url("http://www.solofondos.com/wp-content/uploads/2015/11/Imagen-de-fondo-html.jpg");
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+        #news{
+            margin-left: 25%;
+            height: 1000px;
+            background-color: rgb(77, 167, 126);
+            padding: 25px;
+        }
+        #contact{
+            margin-left: 25%;
+            height: 1000px;
+            background-color:darkseagreen;
+            padding: 25px;
+        }
+        #about{
+            margin-left: 25%;
+            height: 1000px;
+            background-color:cadetblue;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <a class="active" href="#home">
+                INICIO
+            </a>
+        </li>
+        <li>
+            <a href="#news">
+                NOTICIAS
+            </a>
+        </li>
+        <li>
+            <a href="#contact">
+                CONTACTO
+            </a>
+        </li>
+        <li>
+            <a href="#about">
+                Acerca de
+            </a>
+        </li>
+    </ul>
+
+    <div id="home">
+        <h2>TITULO Home</h2>
+        <h3>Subtitulo</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ab cumque reiciendis possimus magni, quam dolorem, facilis nemo praesentium pariatur at commodi voluptatibus amet culpa accusantium illum cupiditate dolores inventore.
+        </p>
+    </div>
+    <div id="news">
+        <h2>TITULO Noticias</h2>
+        <h3>Subtitulo</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ab cumque reiciendis possimus magni, quam dolorem, facilis nemo praesentium pariatur at commodi voluptatibus amet culpa accusantium illum cupiditate dolores inventore.
+        </p>
+    </div>
+    <div id="contact">
+        <h2>TITULO Contacto</h2>
+        <h3>Subtitulo</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ab cumque reiciendis possimus magni, quam dolorem, facilis nemo praesentium pariatur at commodi voluptatibus amet culpa accusantium illum cupiditate dolores inventore.
+        </p>
+    </div>
+    <div id="about">
+        <h2>TITULO Acerca De</h2>
+        <h3>Subtitulo</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ab cumque reiciendis possimus magni, quam dolorem, facilis nemo praesentium pariatur at commodi voluptatibus amet culpa accusantium illum cupiditate dolores inventore.
+        </p>
+    </div>
+</body>
+</html>

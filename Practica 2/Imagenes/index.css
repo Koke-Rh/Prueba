@@ -1,0 +1,36 @@
+body {
+    background-color: beige;
+    color: black;
+   
+}
+
+h1{
+    text-align: center;
+}
+img{
+    width: 100%;
+    display: block;
+    margin: 0 auto ;
+}
+#titulo{
+     font-family:Arial, Helvetica, sans-serif ;
+}
+#inicio{
+    text-align: justify;
+    font-size: 30px;
+}
+.tipodeletra {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 10px solid pink;
+}
+#titulo2 {
+    text-align: center;
+    color: aquamarine;
+    }
+.neon {
+    color: blanchedalmond;
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 0 0 5px firebrick, 0 0 10px coral, 0 0 15px cornsilk, 0 0 20px green, 
+    0 0 30px yellowgreen, 0 0 40px gainsboro, 0 0 55px teal, 0 0 75px seashell
+}
